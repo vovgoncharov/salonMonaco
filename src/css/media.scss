@@ -1,0 +1,92 @@
+@media screen and (max-width: 1024px) {
+
+    //header
+    .header {
+        .top_slider {
+            .slick-prev {
+                position: absolute;
+                left: -9999px;
+            }
+
+            .slick-next {
+                position: absolute;
+                left: -9999px;
+            }
+        }
+    }
+
+    //About
+    .about {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .about_left {
+            width: 100%;
+        }
+
+        img.icon {
+            width: 100%;
+            height: auto;
+            padding-top: 7%;
+            padding-bottom: 7%;
+            margin-left: 30px;
+        }
+    }
+
+    //Service
+    .service {
+        .our_service {
+            .our_service_top {
+                padding: 40px 15%;
+                flex-direction: column;
+                align-items: center;
+
+                .haircut {
+                    width: 100%;
+                    margin: 5%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 690px) {
+
+    .header {
+        .top_nav {
+            display: flex;
+            align-items: flex-start;
+
+            .menu {
+                .laptop_nav {
+                    display: none;
+                }
+            }
+
+            .line {
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .footer {
+        .footer_contact {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            nav.menu_footer {
+                padding-top: 40px;
+
+                li {
+                    a {
+                        padding: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

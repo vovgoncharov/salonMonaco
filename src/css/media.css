@@ -1,0 +1,85 @@
+@media screen and (max-width: 1024px) {
+  .header .top_slider .slick-prev {
+    position: absolute;
+    left: -9999px;
+  }
+  .header .top_slider .slick-next {
+    position: absolute;
+    left: -9999px;
+  }
+  .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about .about_left {
+    width: 100%;
+  }
+  .about img.icon {
+    width: 100%;
+    height: auto;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-left: 30px;
+  }
+  .service .our_service .our_service_top {
+    padding: 40px 15%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .service .our_service .our_service_top .haircut {
+    width: 100%;
+    margin: 5%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .header .top_nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .header .top_nav .menu .laptop_nav {
+    display: none;
+  }
+  .header .top_nav .line {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .footer .footer_contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .footer_contact nav.menu_footer {
+    padding-top: 40px;
+  }
+  .footer .footer_contact nav.menu_footer li a {
+    padding: 50px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
